@@ -1,0 +1,19 @@
+* {
+
+    box-sizing:border-box;
+}
+body {
+    font-family:"Helvetica Neue", Arial, sans-serif;
+}
+.mosaicflow__column {
+    float:left;
+}
+.mosaicflow__item {
+    position:relative;
+}
+.mosaicflow__item img {
+    display:block;
+    width:100%;
+    max-width:500px;
+    height:auto;
+}

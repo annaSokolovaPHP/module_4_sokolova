@@ -1,0 +1,379 @@
+.price:hover .price_val{
+   font-size: 25px;
+    color: #9c3854;
+}
+.popover {
+    top: 71px !important;
+    left: 50px !important;
+}
+.popover_left {
+    top: 71px !important;
+    right: 50px !important;
+}
+/*HOME*/
+.advantage{
+    height:100px;
+    font-weight: bold;
+}
+.home_advantage{
+    margin-top: 25px;
+}
+.home_form {
+    background-color: rgba(252, 248, 227, 0.66);
+    padding: 20px;
+    border-radius: 4px;
+    font-style: italic;
+}
+.home_form p{
+    font-weight: bold;
+}
+#submit + .popover {
+    font-weight: bold;
+    background-color: #d9edf7;
+}
+
+#contact .h1{
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+/*HOME*/
+/*ABOUT_ME*/
+.about_me_content{
+    height: 100%;
+    padding: 2%;
+}
+.about_me_content_text{
+    text-indent: 1.5em;
+    text-align: justify;
+}
+.about_me_photo{
+    float: right;
+    margin-left: 1%;
+}
+.about_me_list{
+}
+.area_works{
+    font-style: italic;
+}
+.area_works_header{
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px;
+}
+.education{
+    padding: 2%;
+    height: 100%;
+}
+.year{
+    font-style: italic;
+    font-weight: bold;
+    text-indent: 1.5em;
+}
+.education > p{
+    text-indent: 1.5em;
+}
+.education_header{
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*ABOUT_ME*/
+
+
+
+
+/*Price*/
+.panel-footer {
+
+}
+.price {
+    border-color: #34b767;
+}
+.price_bold{
+    font-weight: bold;
+}
+/*Price*/
+/*Comment*/
+.comment .comment-body {
+    margin: 0;
+    overflow: hidden;
+    padding: 25px;
+    margin-top: 2em;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-color: #E8E8E8;
+    border-radius: 4px;
+}
+
+.comment-list {
+    margin-bottom: 40px !important;
+    margin-left: 0px !important;
+    padding-left: 0;
+}
+.comment_img {
+    height: 100px;
+    float: left;
+    margin-right: 15px;
+}
+.comment-list .children {
+    margin-left: 0px!important;
+    padding-left: 40px;
+    border-left: 1px solid #E8E8E8;
+    background-repeat: no-repeat;
+    background-position: left 20px;
+}
+
+
+.active_green {
+    background-color: #34b767;
+}
+a .list-group-item{
+    color: #fff;
+}
+
+/*Comment*/
+
+
+/* цвет фона и рамки навигационного меню */
+
+
+.white_color{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+/*NAVBAR*/
+
+.article_row{
+    margin: 15px 0 15px 0;
+}
+.hr_margin_15 {
+    margin: 15px 0 15px 0;
+}
+body {
+
+    padding-top: 70px;
+
+}
+.exit{
+    padding-right: 15px;
+}
+footer hr{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.article_img{
+    float: left;
+    margin-right: 1%;
+    max-height: 200px;
+}
+
+/* ARTICLE*/
+.to_top {
+    background: rgba(0, 0, 0, 0.4);
+    color: #FFF;
+    bottom: 4%;
+    cursor: pointer;
+    position: fixed;
+    right: 20px;
+    z-index: 999;
+    font-size: 16px;
+    padding: 2px 10px;
+    border-radius: 4px;
+    -webkit-transition: background-color 0.1s linear;
+    -moz-transition: background-color 0.1s linear;
+    -o-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear;
+}
+.to_top a:hover, a:focus {
+    color: #FFF;
+    text-decoration: underline;
+}
+.input_margin {
+    margin: 15px;
+}
+.pagination_articles>li>a {
+    color:#34b767;
+}
+.user_name_comment{
+    font-weight: bold;
+    font-style: italic;
+}
+.pagination_articles>.active > a,
+.pagination_articles>.active > a:hover
+{
+    background-color:#34b767;
+    border-color: #34b767;
+    color: #fff;
+}
+.img_popular {
+    height: 75px;
+    float: left;
+    margin-right: 10px;
+}
+.popular_item {
+    min-height: 100px;
+}
+.btn.btn-default.read-more {
+    border: 1px solid #E8E8E8;
+    color: #34b767;
+    background-image: none;
+    margin-top: 10px;
+}
+.btn.btn-default.read-more:hover {
+     color: #FFF;
+     background-color: #34b767;
+ }
+
+.btn.btn-default.search {
+    background-image: none;
+    background-color: #34b767;
+}
+.search i{
+    color:#fff;
+}
+
+.widget ul li {
+    list-style: none;
+    border-bottom: 1px solid #F2F2F2;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+/* ARTICLE*/
+
+.up{
+    float: right;
+}
+
+.education img{
+    width: 100%;
+    height: 100%;
+}
+.user_avatar{
+    height: 20px;
+}
+
+
+
+@media (min-width: 768px) {
+    .about_me_photo {
+        height: 310px;
+    }
+
+.article_img{
+    height: 310px;
+
+}
+#carousel1{
+    width:100%;
+    height:500px;
+    background:#34925e;
+}
+
+.cloudcarousel{
+    height:250px;
+}
+}
+
+@media (max-width: 767px) {
+
+    .advantage{
+        font-size: 15px;
+        height: 50px;
+    }
+    #carousel1{
+        height:300px;
+    }
+
+    .cloudcarousel{
+        height:75px;
+    }
+
+    /*comment*/
+    .comment-list .children {
+        margin-left: 0px!important;
+        padding-left: 5px;
+        border-left: 1px solid #E8E8E8;
+        background-repeat: no-repeat;
+        background-position: left 02px;
+    }
+
+    /*comment*/
+    /*NAVBAR*/
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #fff;
+    }
+    /* Цвет и фон пункта меню в раскрывающихся списках, при поднесении к нему курсора мышки или при нахождении его в фокусе */
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #d1ffed;
+        background-color: #547b54;
+    }
+
+    /*NAVBAR*/
+
+    .about_me_photo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+}
+
+
+
+
+
+/* Сворачивание меню   на 1100 px*/
+@media (max-width: 1100px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+
+    #carousel1{
+        height:300px;
+    }
+
+    .cloudcarousel{
+        height:150px;
+    }
+}
+/* Сворачивание меню   на 1100 px*/
+
+
