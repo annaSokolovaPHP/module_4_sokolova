@@ -1,0 +1,5 @@
+@include('admin.templates.header')
+    @yield('content')
+    @yield('addInfo')
+    @yield('script')
+@include('admin.templates.footer')
